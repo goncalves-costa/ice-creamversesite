@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="eventos.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">Ice-Creamverse</a>   
+            </div>
+            <nav>
+                <a href="Ice Cream Planet.html">Home</a>
+                <a href="Cárdapio.html">Cardápio</a>
+                <a href="Eventos.html">Eventos</a>
+            </nav>
+ 
+        </div>
+    </header>
+     
+     
+
+    <div class="anuncio">
+        <h1>Quer que a gente  pouse na sua festa?</h1>
+        <p>Nós, da Ice-creamverse, também podemos sair do nosso planeta e ir para no seu. Levamos diversão por onde nós passamos, levando sorvete e nosso personagens por onde vamos. Quer que aparecemos no aniversário do seu filho, ou no seu casamento, <strong>preencha o formulário abaixo</strong> e espera a nossa resposta. <strong>Icecreamverse um universo de sabores!</strong></p>
+    </div>
+
+    <form method="POST" class="fContato" action="#">
+        <fieldset class="usuario">
+            <legend>Indentificação do Usúario</legend>
+
+             <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome Completo"> </p>
+
+             <p><label for="cEmail">E-mail: </label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="E-mail"></p>
+
+            <!--<fieldset class="sexo">
+                <legend>Sexo:</legend>
+                <input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label>
+                <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label>
+            </fieldset> -->
+
+            <p><label for="cData">Data de Nascimento:</label> <input type="date" name="tData" id="cData"></p>
+
+        </fieldset>
+
+        <fieldset class="endereco">
+            <legend>Endereço do Úsuario</legend>
+
+            <p><label for="cLogra">Logradouro:</label> <input type="text" name="tLogra" id="cLogra" size="30" maxlength="40" placeholder="End, Av, Bairro"></p>
+
+            <p><label for="cNum">Número: </label><input type="number" name="tNum" id="cNum" size="8" maxlength="10" placeholder="Número"></p>
+
+            <p><label for="cEstado">Estado:</label> <select name="tEstado" id="cEstado">
+                <optgroup label="Região Sudeste">
+                    <option value="São Paulo">SP</option>
+                    <option>RJ</option>
+                    <option>MG</option>
+                    <option>ES</option>
+                </optgroup>
+            </select></p>
+    
+            <p><label for="cCidade">Cidade:</label> <input type="text" name="tCidade" id="cCidade" size="20" maxlength="30" placeholder="Cidade" list="cidade">  </p>
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Sorocaba"></option>
+                <option value="Campinas"></option>
+            </datalist>
+
+        </fieldset>
+
+        <fieldset class="mensagem">
+            <legend>Mensagem do Úsuario:</legend>
+            <p><label for="cMsg">Mensagem:</label> <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Digite sua Mensagem"></textarea> </p>
+            
+            <p><input type="checkbox" name="tPed" id="cPed" checked> Gostaria de receber e-mails da Ice-Creamverse?</p>
+
+            <div class="botao"><input type="submit" value="Enviar"></div>
+        </fieldset>
+    </form>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Nossos Serviços</a></li>
+                    <li><a href="#">Politica de Privacidade </a></li>
+                </ul>
+               
+            </div> 
+               <div class="footer-col">
+                   <h4>Ajuda</h4>
+                   <ul>
+                       <li><a href="#">FAQ</a></li>
+                       <li><a href="#">Ingredientes</a></li>
+                       <li><a href="#">Nossa Fábricas</a></li>
+                   </ul>
+                  </div>
+
+                  <div class="footer-col">
+                   <h4> Loja Online</h4>
+                   <ul>
+                       <li><a href="#">Formas de Pagamento</a></li>
+                       <li><a href="#">Brindes e Brinquedos</a></li>
+                   </ul>
+                  </div>
+       
+                   
+                  
+            </div>
+        </div>
+
+    </footer>
+    
+    
+</body>
+</html>

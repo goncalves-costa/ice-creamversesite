@@ -1,0 +1,287 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    background-image: linear-gradient(to top, palevioletred, purple);
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+    margin-left: 100px;
+
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:cornflowerblue;
+    text-shadow: 2px 2px 0px white;
+    letter-spacing: 3px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+    margin-right: 100px;
+ 
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    letter-spacing: 3px;
+    margin-left: 10px;
+
+}
+
+nav a:hover{
+    color: skyblue;
+}
+
+/*para fazer a imagem de fundo*/
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(ice-creamverse1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bloco-a{
+
+   background-image: linear-gradient( to top, antiquewhite, palevioletred);
+   height: 500px;
+   width: 100%;
+   box-shadow: 0px  0px 50px palevioletred;
+   text-align: right;
+   
+}
+
+.bloco-b{
+    background-color: antiquewhite;
+    text-align: left;
+    height: 500px;
+    width: 100%;
+
+}
+
+.bloco-c{
+    background-image: linear-gradient(to bottom, antiquewhite, aquamarine);
+    height: 500px;
+    width: 100%;
+    text-align: right;
+   
+   
+  
+}
+
+.card-b{
+    
+    width: 600px;
+    background-color:skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    box-shadow: 30px -30px 0px black;
+    height: 350px;
+    margin-top: 50px;
+    align-items: center;
+    padding: 40px 30px 0px 30px;
+    
+   
+}
+
+.card-b h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
+    text-shadow: 2px 2px 0px black;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: palevioletred solid;
+
+}
+.card-b p{
+    color:white;
+    padding-top: 50px;
+    font-size: 25px;
+    word-spacing: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1.5px 1.5px 0px black;
+}
+
+
+.card h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
+    text-shadow: 2px 2px 0px black;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: palevioletred solid;
+}
+
+.card {
+    width: 600px;
+    background-color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    box-shadow: 0px 0px 10px black;
+    height: 350px;
+    margin-top: 50px;
+    padding: 40px 30px 0px 30px;
+    text-align: justify;
+    box-shadow: -30px -30px 0 black;
+
+    
+}
+
+
+.card p{
+    color:white;
+    padding-top: 50px;
+    font-size: 25px;
+    word-spacing: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1.5px 1.5px 0px black;
+}
+
+.card-a{
+    width: 600px;
+    background-color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    box-shadow: 0px 0px 10px black;
+    height: 350px;
+    margin-top: 60px;
+    padding: 40px 30px 0px 30px;
+    text-align: justify;
+    box-shadow: -30px -30px 0 black;
+
+}
+
+.card-a h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
+    text-shadow: 2px 2px 0px black;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: palevioletred solid;
+}
+
+.card-a p{
+    color:white;
+    padding-top: 10px;
+    font-size: 22px;
+    word-spacing: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1.5px 1.5px 0px black;
+
+}
+
+
+.img-l{
+    float: left;
+    margin-left: 30px;
+    
+
+}
+
+.img-r{
+    float: right;
+    position: relative;  
+}
+
+
+/*programando o footer(rodapé)*/
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    background-color:sandybrown;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    border-right: palevioletred solid;
+}
+
+.footer-col h4{
+    font-size: 30px;
+    color: palevioletred;
+    text-shadow: 2px 2px 0px black;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    font-size: 19px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: 1s;
+    text-shadow: 3px 2px 0px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+footer ul li a:hover{
+    color: skyblue;
+    padding-left: 10px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*para tudo ficar por cima*/
+
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height: 700px;
+
+    
+} 
+
+
+
+ 
